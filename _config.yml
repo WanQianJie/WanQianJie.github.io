@@ -5,7 +5,7 @@
 # Site
 title: 万千界
 subtitle:
-description:
+description: 万千界的个人博客
 keywords:
 author: 万千界
 language: zh-CN
@@ -79,5 +79,6 @@ theme: hexo-theme-next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/WanQianJie/WanQianJie.github.io
-  branch: master
+  repo: 
+    github: git@github.com:WanQianJie/WanQianJie.github.io,master
+    coding: git@git.coding.net:WanQianJie/WanQianJie.coding.me,master
