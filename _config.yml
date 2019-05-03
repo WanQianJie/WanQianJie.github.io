@@ -4,8 +4,8 @@
 
 # Site
 title: 万千界
-subtitle:
-description: 万千界的个人博客
+subtitle: 
+description: 随便写写
 keywords:
 author: 万千界
 language: zh-CN
@@ -50,7 +50,7 @@ highlight:
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ''
-  per_page: 10
+  per_page: 5
   order_by: -date
   
 # Category & Tag
@@ -81,4 +81,3 @@ deploy:
   type: git
   repo: 
     github: git@github.com:WanQianJie/WanQianJie.github.io,master
-    coding: git@git.coding.net:WanQianJie/WanQianJie.coding.me,master

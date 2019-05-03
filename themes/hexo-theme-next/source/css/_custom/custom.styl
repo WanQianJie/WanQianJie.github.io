@@ -1,9 +1,143 @@
 // Custom styles.
-// 主页文章添加阴影效果
- .post {
-   margin-top: 60px;
-   margin-bottom: 60px;
-   padding: 25px;
-   -webkit-box-shadow: 0 0 5px rgba(202, 203, 203, .5);
-   -moz-box-shadow: 0 0 5px rgba(202, 203, 204, .5);
+
+// 站点名字体
+.site-title {
+
+}
+
+// 修改网站头部
+.headband {
+    height: 0px;
+    //background: #49b1f5;
+}
+
+// 背景
+@media screen and (min-width:1200px) {
+    body {
+    background-color: #C8EEA4;
+    //background-image:url(../../images/bg.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position:50% 50%; 
+    }
+    #footer a {
+        color:#eee;
+    }
+}
+
+// Custom styles.
+
+//文字背景以及半透明的设置
+.content {
+	border-radius: 20px; //文章背景设置圆角
+	padding: 2px 21px 2px 21px;
+	background:rgba(255, 255, 255, 0.8) none repeat scroll !important;
+}
+
+
+
+// 菜单超链接样式
+.menu .menu-item a:hover {
+	margin-top: 2px;
+    border-bottom-color: rgba(161, 102, 171, 0);
+}
+
+// 文章标题字体
+.posts-expand .post-title {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+// 文章内链接文本样式
+.post-body p a{
+  color: #0593d3;
+  border-bottom: none;
+  border-bottom: 1px solid #0593d3;
+  &:hover {
+    color: #fc6423;
+    border-bottom: none;
+    border-bottom: 1px solid #fc6423;
   }
+}
+
+
+code {
+    color: #ff7600;
+    background: #fbf7f8;
+    margin: 2px;
+}
+// 大代码块的自定义样式
+.highlight, pre {
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 3px;
+}
+.highlight, code, pre {
+    border: 1px solid #d6d6d6;
+}
+
+// 自定义的文章摘要图片样式
+img.img-topic {
+    width: 100%;
+}
+
+/* gitalk details */
+
+.gt-container .gt-header-comment {
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	margin-left: 0;
+}
+
+.gt-container .gt-header-textarea {
+    min-height: 8.125em;
+    max-height: 15em;
+}
+
+/*
+.gt-container .gt-avatar-github {
+	display: none;
+}
+*/
+
+.gt-container .gt-no-init {
+	padding: 1.25em 0;
+	text-align: center;
+}
+
+.gt-container .gt-no-init>p {
+	text-align: center;
+}
+
+.gt-container .gt-meta {
+	margin: 0 0;
+	padding: 1em 0;
+	position: relative;
+	border-bottom: 0px solid #e9e9e9;
+	font-size: 1em;
+	z-index: 0;
+}
+
+.gt-container .gt-popup .gt-action.is--active:before {
+	content: '';
+	width: 0.25em;
+	height: 0.25em;
+	background: #6190e8;
+	position: absolute;
+	left: 0.5em;
+	top: 1.2375em;
+}
+
+.hider_title{
+    font-family: "Microsoft Yahei";
+    cursor: pointer;
+    color: #ef4a05;
+}
+.close:after{
+    content: "▼";
+}
+.open:after{
+    content: "▲";
+}
